@@ -12,7 +12,9 @@ EcmaScript 7 boilerplate project.
 [![devDependency Status](https://david-dm.org/opensoars/es7/dev-status.svg)](https://david-dm.org/opensoars/es7#info=devDependencies)
 -->
 
+
 ---
+
 
 ## Install
 
@@ -20,15 +22,15 @@ EcmaScript 7 boilerplate project.
 
 This project can be installed clean using [newapp](https://github.com/opensoars/newapp).
 
-The project is named node-es7.
+The project is named node-es7 and is location in the projects folder.
 
 
 ## Use
 
 ### Babel
 
-Run either `npm run gulp-babel` or if gulp is globaly installed `gulp babel`.
+Run either `npm run gulp-babel` or if gulp is globally installed `gulp babel`.
 
 ### Watch
 
-To watch the project for changes run either `npm run gulp-watch` or if gulp is globaly installed `gulp watch`.
+To watch the project for changes run either `npm run gulp-watch` or if gulp is globally installed `gulp watch`.

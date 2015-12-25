@@ -15,6 +15,10 @@ gulp.task('babel', function () {
     .pipe(gulp.dest('dist'));
 });
 
-gulp.task('watch', function() {
+gulp.task('watch', function () {
   gulp.watch('src/**/*.js', ['babel']);
+});
+
+gulp.task('default', function () {
+  console.log('Run either gulp its babel or watch task.');
 });
